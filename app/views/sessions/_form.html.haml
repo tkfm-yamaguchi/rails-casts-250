@@ -1,0 +1,11 @@
+
+= form_tag sessions_path do
+  .field
+    = label :session, :email
+    = text_field :session, :email
+  .field
+    = label :session, :password
+    = password_field :session, :password
+  .actions
+    = submit_tag
+
